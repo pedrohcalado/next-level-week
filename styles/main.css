@@ -1,6 +1,14 @@
+:root {
+  --title-color: #322153;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f0f0f5;
+}
+
+a {
+  text-decoration: none;
 }
 
 #page-home {
@@ -13,10 +21,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 48px;
 }
 
 #page-home header a {
+  color: var(--title-color);
   display: flex;
+  font-weight: 700;
 }
 
 #page-home header a span {
@@ -31,4 +42,13 @@ body {
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
+}
+
+#page-home main {
+  max-width: 560px;
+}
+
+#page-home main h1 {
+  font-size: 54px;
+  color: var(--title-color);
 }
